@@ -16,6 +16,7 @@
 - [X] Should be able to fetch the customer's statement by date
 - [X] Should be able to update customer account data
 - [X] Should be able to get customer account data
+- [X] Should be able to get customer account balance
 - [X] Should be able to delete an account
   
 ## 🚫 Rules
