@@ -13,7 +13,7 @@
 - [X] Should be able to fetch the customer's statement
 - [X] Should be able to make a deposit
 - [X] Should be able to make a withdrawal
-- [ ] Should be able to fetch the customer's statement by date
+- [X] Should be able to fetch the customer's statement by date
 - [ ] Should be able to get customer account data
 - [ ] Should be able to delete an account
   

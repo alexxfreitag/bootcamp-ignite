@@ -58,6 +58,19 @@ app.post('/accounts', (request, response) => {
 
 app.get('/statements', verifyIfExistsAccountByCPF, (request, response) => {
   const { customer } = request;
+
+  const { date } = request.query;
+
+  if (date) {
+    const dateFormat = new Date(date + ' 00:00')
+
+    const statements = customer.statement.filter((statement) =>
+      statement.created_at.toDateString() === new Date(dateFormat).toDateString()
+    )
+
+    return response.json(statements);
+  }
+
   return response.json(customer.statement);
 })
 
