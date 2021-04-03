@@ -24,7 +24,7 @@ class CategoriesRepository {
     this.categories.push(newCategory);
   }
 
-  list(): Category[] {
+  listAll(): Category[] {
     return this.categories;
   }
 }
