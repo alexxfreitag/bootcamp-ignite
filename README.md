@@ -5,7 +5,7 @@
 <p align="center">Projects and challenges developed during the Ignite bootcamp promoted by Rocketseat.</p>
 
 # NodeJS
- - [NodeJS Fundamentals](https://github.com/alexxfreitag/bootcamp-ignite/tree/main/nodejs/01-nodejs-fundamentals)
+ - [NodeJS fundamentals](https://github.com/alexxfreitag/bootcamp-ignite/tree/main/nodejs/01-nodejs-fundamentals)
  - [FinAPI](https://github.com/alexxfreitag/bootcamp-ignite/tree/main/nodejs/02-finapi)
  - [Typescript introduction](https://github.com/alexxfreitag/bootcamp-ignite/tree/main/nodejs/03-typescript-introduction)
  - [RentalX](https://github.com/alexxfreitag/bootcamp-ignite/tree/main/nodejs/04-rentalx) (_Under development..._)
